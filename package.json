@@ -1,0 +1,10 @@
+{
+  "name": "job-portal",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install": "cd backend && npm install",
+    "build": "cd backend && npm run build",
+    "start": "cd backend && npm start"
+  }
+}
