@@ -1,4 +1,4 @@
-// Use environment variables or fallback to localhost for development
+// Use environment variables for API endpoints with fallback to local development
 const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000/api/v1";
 
 export const USER_API_END_POINT = `${API_BASE}/user`;
